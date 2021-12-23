@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+    <listeners>
+        <listener class-name="com.directfromfield.qa.testutil.Listeners" />
+    </listeners>
+    <test name="Weathershopper Application Test Cases">
+        <classes>
+            <class name="com.directfromfield.qa.testcases.HomePageTest" />
+            <class name="com.directfromfield.qa.testcases.ProductPageTest" />
+            <class name="com.directfromfield.qa.testcases.VendorsPageTest" />
+            <class name="com.directfromfield.qa.testcases.CartPageTest" />
+            <class name="com.directfromfield.qa.testcases.PaymentPageTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
