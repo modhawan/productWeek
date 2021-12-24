@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/miyera/IdeaProjects/ProductweekAPI">
+        <classes><class name="ProductweekAPI.Admin_API">
+            <methods>
+                <include name="test_get_call"/>
+                <include name="add_subCategory_post_call"/>
+                <include name="add_Category_Post_Call"/>
+            </methods>
+        </class>
+            <class name="ProductweekAPI.Common_API">
+                <methods>
+                    <include name="customer_get_categorylist"/>
+                    <include name="customer_get_productlist"/></methods>
+            </class><class name="ProductweekAPI.Customer_API"><methods>
+                <include name="post_regestration"/>
+                <include name="get_login"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
